@@ -12,7 +12,7 @@ function divisible(){
     document.getElementById("p1").innerHTML=result;
 }
 function compare(){
-    alpha=parseInt(document.getElementById('num2').value);
+    alpha=(document.getElementById('num2').value);
 
     if( alpha == "a" || alpha == "e" || alpha =="i" || alpha == "o" || alpha == "u"){
         result="Vowel";
