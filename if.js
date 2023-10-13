@@ -16,7 +16,9 @@ function compare(){
 
     if( alpha == "a" || alpha == "e" || alpha =="i" || alpha == "o" || alpha == "u"){
         result="Vowel";
-
+    }
+    else if( alpha == "A" || alpha == "E" || alpha =="I" || alpha == "O" || alpha == "U"){
+        result="Vowel";
     } 
     else{
         result="Consonant";
